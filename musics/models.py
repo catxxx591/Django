@@ -8,4 +8,4 @@ class Music(models.Model):
     created = models.DateTimeField(auto_now_add=True)
 
     class Meta:
-        db_table = "music"
+        db_table = "Music"
